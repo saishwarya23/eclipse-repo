@@ -6,20 +6,18 @@ public class BusRunner {
 
 	public static void main(String[] args) {
 		
-		Bus number=new Bus();
-		Bus start=new Bus();
-		Bus dest=new Bus();
+		Bus busData=new Bus();
 		
-		System.out.println(number.busNo);
-		System.out.println(start.starting);
-		System.out.println(dest.destination);
+		System.out.println(busData.busNo);
+		System.out.println(busData.starting);
+		System.out.println(busData.destination);
 		
-		number.busNo=23;
-		start.starting="Shimoga";
-		dest.destination="Bangalore";
+		busData.busNo=23;
+		busData.starting="Shimoga";
+		busData.destination="Bangalore";
 		
-		System.out.println(number.busNo);
-		System.out.println(start.starting);
-		System.out.println(dest.destination);
+		System.out.println(busData.busNo);
+		System.out.println(busData.starting);
+		System.out.println(busData.destination);
 	}
 }

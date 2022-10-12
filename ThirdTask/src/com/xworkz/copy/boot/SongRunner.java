@@ -7,33 +7,27 @@ public class SongRunner {
 	public static void main(String[] args) {
 		
 		
-		Song songName=new Song();
-		Song lang=new Song();
-		Song singerName=new Song();
-		Song lyricstName=new Song();
-		Song songType=new Song();
-		
-		System.out.println(songName.name);
-		System.out.println(lang.language);
-		System.out.println(singerName.singer);
-		System.out.println(lyricstName.lyricst);
-		System.out.println(songType.type);
-		
-		songName.name="E bhoomi bannada bugari";
-		lang.language="Kannada";
-		singerName.singer="S.P Balasubramanyam";
-		lyricstName.lyricst="Hamsalekha";
-		songType.type="Motivational Song";
-		
-		System.out.println(songName.name);
-		System.out.println(lang.language);
-		System.out.println(singerName.singer);
-		System.out.println(lyricstName.lyricst);
-		System.out.println(songType.type);
+		Song songData=new Song();
 		
 		
+		System.out.println(songData.name);
+		System.out.println(songData.language);
+		System.out.println(songData.singer);
+		System.out.println(songData.lyricst);
+		System.out.println(songData.type);
 		
-
+		songData.name="E bhoomi bannada bugari";
+		songData.language="Kannada";
+		songData.singer="S.P Balasubramanyam";
+		songData.lyricst="Hamsalekha";
+		songData.type="Motivational Song";
+		
+		System.out.println(songData.name);
+		System.out.println(songData.language);
+		System.out.println(songData.singer);
+		System.out.println(songData.lyricst);
+		System.out.println(songData.type);
+		
 	}
 
 }

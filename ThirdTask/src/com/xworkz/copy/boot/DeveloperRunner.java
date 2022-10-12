@@ -6,29 +6,26 @@ public class DeveloperRunner {
 
 	public static void main(String[] args) {
 		
-		 Developer name1=new  Developer();
-		 Developer qualification=new  Developer();
-		 Developer expInYears=new  Developer();
-		 Developer sal=new  Developer();
-		 Developer companyName=new  Developer();
+		 Developer developerData=new  Developer();
 		 
-		 System.out.println(name1.name);
-		 System.out.println(qualification.education);
-		 System.out.println(expInYears.experience);
-		 System.out.println(sal.salary);
-		 System.out.println(companyName.company);
+		 
+		 System.out.println(developerData.name);
+		 System.out.println(developerData.education);
+		 System.out.println(developerData.experience);
+		 System.out.println(developerData.salary);
+		 System.out.println(developerData.company);
 
-		 name1.name="Shilpa U";
-		 qualification.education="B.E in EEE";
-		 expInYears.experience=1;
-		 sal.salary=30000;
-		 companyName.company="Brighosha";
+		 developerData.name="Shilpa U";
+		 developerData.education="B.E in EEE";
+		 developerData.experience=1;
+		 developerData.salary=30000;
+		 developerData.company="Brighosha";
 		 
-		 System.out.println(name1.name);
-		 System.out.println(qualification.education);
-		 System.out.println(expInYears.experience);
-		 System.out.println(sal.salary);
-		 System.out.println(companyName.company);
+		 System.out.println(developerData.name);
+		 System.out.println(developerData.education);
+		 System.out.println(developerData.experience);
+		 System.out.println(developerData.salary);
+		 System.out.println(developerData.company);
 
 
 	}

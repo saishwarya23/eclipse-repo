@@ -6,25 +6,22 @@ public class DistrictCollectorRunner {
 
 	public static void main(String[] args) {
 		
-		DistrictCollector name1=new DistrictCollector();
-		DistrictCollector age1=new DistrictCollector();
-		DistrictCollector district1=new DistrictCollector();
-		DistrictCollector no=new DistrictCollector();
+		DistrictCollector collectorData=new DistrictCollector();
 		
-		System.out.println(name1.name);
-		System.out.println(age1.age);
-		System.out.println(district1.district);
-		System.out.println(no.batchNo);
+		System.out.println( collectorData.name);
+		System.out.println( collectorData.age);
+		System.out.println( collectorData.district);
+		System.out.println( collectorData.batchNo);
 		
-		name1.name="Veena S";
-		age1.age=23;
-		district1.district="Shimoga";
-		no.batchNo=68;
+		collectorData.name="Veena S";
+		collectorData.age=23;
+		collectorData.district="Shimoga";
+		collectorData.batchNo=68;
 		
-		System.out.println(name1.name);
-		System.out.println(age1.age);
-		System.out.println(district1.district);
-		System.out.println(no.batchNo);
+		System.out.println(collectorData.name);
+		System.out.println(collectorData.age);
+		System.out.println(collectorData.district);
+		System.out.println(collectorData.batchNo);
 		
 	}
 
